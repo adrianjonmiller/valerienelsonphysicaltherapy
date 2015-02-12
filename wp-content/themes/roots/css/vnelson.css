@@ -1,0 +1,144 @@
+/*
+ Lovingly hand-written by Austin de Coup-Crank
+ http://fishcreative.com
+ 
+ Light blue:	cbd8ed
+ Dark blue:		0066a4
+ Dark grey:		58585a
+*/
+
+/* Global
+---------------------------------------------------------------------------*/
+body {font:10pt/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;color:#444;}
+a {color:#0065a4;text-decoration:none;}
+a:focus { color: #09f; outline: thin dotted; }
+a:hover, a:active { color: #09f; outline: 0; }
+cite:before{content:' — '}
+
+
+
+/* Header
+---------------------------------------------------------------------------*/
+#banner {background:#cbd8ed}
+#banner h1 {margin:0 0 0.2em 0}
+#banner .container {margin:2em 0 2em 2em;border-bottom:1px solid #fff;width:auto;}
+#logo a {
+	display:block;
+	width:275px;
+	height:52px;
+	background:url(../img/logo.png) no-repeat;
+}
+
+
+
+/* Sidebar navigation
+---------------------------------------------------------------------------*/
+#sidebar {
+	background:#ccc;
+}
+#nav-main {margin:1em 0 0 0}
+#nav-main ul li {
+	padding-left:1.5em;
+	
+}
+#nav-main ul li.current_page_item {
+	background:url(../img/marker.png) no-repeat left center;
+}
+#nav-main ul li a {
+	display:block;
+	font:italic 8pt/3em Georgia,"Times New Roman",serif;
+	color:#000;
+
+}
+#nav-main ul li a:hover {
+	text-decoration:underline;
+}
+
+/* Content
+---------------------------------------------------------------------------*/
+#main a {color:#222;border-bottom:1px solid #cbd8ed}
+#main a:hover {color:#000;border-bottom:1px solid #222}
+
+
+/* Primary content
+---------------------------------------------------------------------------*/
+#content {background:#fff url(../img/faux-column.gif) repeat-y left top}
+#main {float:right;}
+#primary-content {
+	
+}
+.page-title {
+	font:italic bold 22pt Georgia,serif;
+	border-bottom:1px solid #000;
+	margin:0.5em 0;
+}
+
+
+
+/* Secondary content
+---------------------------------------------------------------------------*/
+#secondary-content {float:right;}
+.span-8 {margin:0;}
+
+
+/* Blog
+---------------------------------------------------------------------------*/
+.blog #primary-content article {
+	border-bottom:1px solid #0066a4;
+	margin:0 0 2em 0;
+}
+
+#main time, .byline {font:italic 10pt/1 Arial,sans-serif}
+#main time {display:inline}
+#main .byline a {border:none;color:#444;}
+#main .byline a:hover {border-bottom:1px dotted #444;}
+.post-title {margin:0 0 0.5em 0;}
+#main .post-title a {border-bottom:none;}
+#main .post-title a:hover {border-bottom:1px solid #222}
+.blog h3, .single h3 {font-size:1.2em;font-weight:bold}
+.single .post-title {margin-top:2em}
+.widget h3 {
+	font-size:1em;
+	font-weight:bold;
+	border-bottom:1px solid #0066a4;
+	padding:0 0 0.5em 0;
+	margin:0 0 0.5em 0;
+}
+.widget_archive ul {list-style:none;margin:0;padding:0;}
+.widget {margin:0 0 2em 0}
+
+/* What We Offer
+---------------------------------------------------------------------------*/
+.services h4 {display:inline}
+.services #secondary-content h4 {font:italic bold 10pt Georgia,serif;display:block;}
+
+/* Our Therapists
+---------------------------------------------------------------------------*/
+.staff-photo {float:right; margin:0 0 1em 1em}
+.staff {clear:right;margin: 0 0 1em 0}
+
+
+/* Footer
+---------------------------------------------------------------------------*/
+footer {
+	background:#808080;
+	font:10pt/1.5 Georgia,serif;
+	color:#fff;
+	margin:0 0 2em 0;
+	padding:0;
+}
+
+footer .container {margin:2em 2em 2em 2.5em;width:auto;}
+footer a {color:#fff;font-style:italic;}
+footer a:hover {border-bottom:1px dotted #fff;color:#fff;}
+#contact-info section {
+	float:left;
+	border-left:1px solid #fff;
+	padding:0 0 0 1em;
+	min-width:150px;
+	height:6em; /* 4 lines x 1.8em */
+}
+#ptbc {width:200px;float:right;margin:0.6em 0.6em 0 0;}
+#ptbc a {color:#fff}
+#ptbc p {margin:0;text-align:right;font:bold 10pt/1.2 Georgia,serif;}
+#ptbc img {float:right;margin:0.5em 0 0 1em;padding:1em 0;}
